@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,43 +8,49 @@
   <link rel="stylesheet" href="assets/css/styles.css" />
   <script src="assets/js/script.js" defer></script>
 </head>
+
 <body>
   <main class="page">
     <header class="hero">
-      <p class="eyebrow">Проект</p>
+      <p class="eyebrow">MVP для образования</p>
       <h1>Matematika</h1>
-      <p class="hero-text">Минимальный рабочий продукт для проекта «Математика простым языком». Страница, структура и базовые стили готовы.</p>
+      <p class="hero-text">Страница-демонстрация для проекта по математике: лаконичный дизайн, готовая структура и
+        адаптивное оформление.</p>
       <div class="hero-actions">
-        <a class="btn-primary" href="#about">Узнать больше</a>
+        <a class="btn-primary" href="#features">Начать</a>
       </div>
     </header>
 
-    <section id="about" class="section">
-      <h2>Что внутри</h2>
+    <section id="features" class="section">
+      <h2>Что уже есть</h2>
+      <p>Проект готов к быстрому запуску и использованию как основной лендинг для образовательной темы.</p>
       <ul>
-        <li>Страница `index.html`</li>
-        <li>Стили в `assets/css/styles.css`</li>
-        <li>JavaScript в `assets/js/script.js`</li>
-        <li>Изображение в `assets/img/image.svg`</li>
+        <li>Рабочий `index.html` с содержанием и структурой.</li>
+        <li>Адаптивные стили в `assets/css/styles.css`.</li>
+        <li>Подготовленный JavaScript-каркас в `assets/js/script.js`.</li>
+        <li>Иллюстрация в `assets/img/image.svg`.</li>
       </ul>
-      <img src="assets/img/image.svg" alt="Matematika illustration" style="width:100%;max-width:640px;margin-top:24px;border-radius:24px;border:1px solid rgba(255,255,255,0.08);" />
-    </section>
-
-    <section class="section">
-      <h2>Цель MVP</h2>
-      <p>Показать основную идею продукта в виде одной рабочей страницы и подготовить структуру для дальнейшего развития.</p>
     </section>
 
     <section class="section card-panel">
-      <h2>Структура проекта</h2>
-      <p>Matematika построена по простой архитектуре, чтобы быстро перейти от идеи к первой рабочей версии.</p>
+      <h2>Как запустить</h2>
+      <p>Любой может быстро открыть страницу локально и показать проект другим.</p>
       <ol>
-        <li>index.html — основная страница</li>
-        <li>assets/css/styles.css — стили</li>
-        <li>assets/js/script.js — скрипт</li>
-        <li>assets/img/image.svg — изображение</li>
+        <li>Перейдите в папку проекта.</li>
+        <li>Откройте `index.html` напрямую или запустите сервер:</li>
+        <pre>python3 -m http.server 8000</pre>
+        <li>Откройте в браузере <code>http://localhost:8000</code>.</li>
       </ol>
+    </section>
+
+    <section class="section">
+      <h2>Почему это удобно</h2>
+      <p>Matematika — это простая стартовая площадка для веб-продукта: демонстрация, презентация и первый MVP в одном
+        файле.</p>
+      <img src="assets/img/image.svg" alt="Иллюстрация проекта Matematika"
+        style="width:100%;max-width:680px;margin-top:24px;border-radius:24px;border:1px solid rgba(255,255,255,0.08);" />
     </section>
   </main>
 </body>
+
 </html>
